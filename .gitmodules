@@ -1,0 +1,6 @@
+[submodule "extern/vcpkg"]
+	path = extern/vcpkg
+	url = https://github.com/microsoft/vcpkg
+[submodule ".\\VcAndCmakeTemplate\\extern\\vcpkg"]
+	path = .\\VcAndCmakeTemplate\\extern\\vcpkg
+	url = https://github.com/microsoft/vcpkg
