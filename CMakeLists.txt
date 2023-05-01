@@ -10,14 +10,18 @@ if (POLICY CMP0141)
 endif()
 
 
-set (PROJECT_NAME_DIR "VcAndCmakeTemplate")
+set(CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_SOURCE_DIR}/VcAndCmakeTemplate/extern/vcpkg/scripts/buildsystems/vcpkg.cmake")
 
-#set(CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_SOURCE_DIR}/${PROJECT_NAME_DIR}/extern/vcpkg/scripts/buildsystems/vcpkg.cmake"
+  
+#message("test again" ${CMAKE_TOOLCHAIN_FILE})
+#set(VCPKG_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/VcAndCmakeTemplate/extern/vcpkg"
   #CACHE STRING "Vcpkg toolchain file")
 
-#message(${CMAKE_CURRENT_SOURCE_DIR} ${PROJECT_NAME_DIR})
+
+#set(CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_SOURCE_DIR}/extern/vcpkg/scripts/buil
 
 project ("VcAndCmakeTemplate")
+
 
 # Schließen Sie Unterprojekte ein.
 add_subdirectory ("VcAndCmakeTemplate")

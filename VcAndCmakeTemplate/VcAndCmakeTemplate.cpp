@@ -7,6 +7,6 @@ using namespace std;
 
 int main()
 {
-	fmt::print("Hello installed library {} \n", "fmt");
+	fmt::print("Hello installed library {} \n", 1);
 	return 0;
 }

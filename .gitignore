@@ -2,3 +2,4 @@ out/*
 /.vs/VcAndCmakeTemplate/FileContentIndex
 /.vs/VcAndCmakeTemplate/v17
 /.vs
+/VcAndCmakeTemplate/extern/vcpkg_installed
